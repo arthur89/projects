@@ -1,0 +1,203 @@
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+	body{
+		overflow-y: auto;
+	}
+
+	#navbar{
+		padding: 20px 10px;
+	}
+
+	#myNavbar a{
+		font-size: 1.2rem;
+	}
+
+	.navbar-brand{
+		font-size: 2rem !important;
+	}
+	
+	#links div{
+		height: 60px;
+		width: 60px;
+	}
+
+	#texte_presentation{
+		padding: 0px 60px;
+		margin-top: 90px;
+	}
+
+	#menu_formule{
+		padding: 0px 60px;
+		margin-top: 130px;
+	}
+
+	#formules{
+		margin-top: 50px;
+	}
+
+	.all_menu{
+		margin-top: 40px;
+	}
+
+	.all_menu .row{
+		display: block;
+	}
+
+	.all_menu .row div[class*=col-]{
+		border-right: none;
+		margin-top: 50px;
+	}
+
+	.scroll_arrow{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		width: 15%;
+	}
+
+	#galerie{
+		margin-top: 140px;
+	}
+
+	#galerie_button{
+		margin-top: 50px;
+		padding: 0px 60px;
+	}
+
+	#resa{
+		border-right: none;
+	}
+
+	#resa form{
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	#resa_infos{
+		margin-top: 110px;
+		width: 100%;
+		padding: 0 60px;
+	}
+
+	#infos_content{
+		margin-top: 60px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	body{
+		overflow-y: auto;
+	}
+
+	#myNavbar{
+		padding: none;
+	}
+
+	#myNavbar a{
+		font-size: 1.1rem;
+	}
+
+	#myNavbar a:hover{
+		background-color: #eceaea;
+	}
+
+	.navbar-brand{
+		font-size: 1.9rem !important;
+	}
+	
+	#left_navbar{
+		line-height: 45px;
+	}
+
+	#txt_accueil{
+		display: block;
+		text-align: center;
+	}
+
+	#links{
+		padding-right: 0px;
+	}
+
+	#links div{
+		height: 50px;
+		width: 50px;
+	}
+
+	#texte_presentation{
+		margin-top: 30%;
+		padding: 40px;
+	}
+
+
+	#menu_formule{
+		padding: 0px 30px;
+		margin-top: 110px;
+	}
+
+	#formules{
+		margin-top: 40px;
+	}
+
+	.all_menu{
+		margin-top: 20px;
+	}
+
+	.all_menu .row{
+		display: block;
+	}
+
+	.all_menu .row div[class*=col-]{
+		border-right: none;
+		margin-top: 50px;
+	}
+
+	#infos{
+		margin-top: 80px;
+	}
+
+	#resa_infos{
+		margin-top: 30%;
+		width: 100%;
+		padding: 0px 30px;
+	}
+
+	#infos_content{
+		margin-top: 50px;
+	}
+
+	#galerie{
+		margin-top: 30%;
+	}
+
+	#galerie_button{
+		margin-top: 40px;
+		padding: 0px 30px;
+	}
+
+	#photos_galerie{
+		margin-top: 30px;
+	}
+
+	#resa{
+		border-right: none;
+	}
+
+	#resa form{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.scroll_arrow{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 70px;
+		width: 18%;
+	}
+}	
